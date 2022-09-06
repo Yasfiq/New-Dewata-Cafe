@@ -1,0 +1,171 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\xampp\htdocs\New Dewata Cafe\Font\edwardian-script-itc.png
+FileModTime:1444262400
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:EdwardianScriptITC
+FamilyName:Edwardian Script ITC
+StyleName:Regular
+FullName:Edwardian Script ITC
+MenuName:Edwardian Script ITC
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\xampp\htdocs\New Dewata Cafe\Font\EdwardianScriptITC.ttf
+DataFormat:sfntData
+FileLength:58100
+FileModTime:1448012640
+WeightClass:400
+WidthClass:6
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\xampp\htdocs\New Dewata Cafe\Font\freefontsdownload.txt
+FileModTime:1660141412
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Gautami-Bold
+FamilyName:Gautami
+StyleName:Bold
+FullName:Gautami Bold
+MenuName:Gautami
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\xampp\htdocs\New Dewata Cafe\Font\gautamib.ttf
+DataFormat:sfntData
+FileLength:213528
+FileModTime:1474076800
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Impact
+FamilyName:Impact
+StyleName:Regular
+FullName:Impact
+MenuName:Impact
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\xampp\htdocs\New Dewata Cafe\Font\impact.ttf
+DataFormat:sfntData
+FileLength:136076
+FileModTime:1469101316
+WeightClass:400
+WidthClass:3
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Impacted
+FamilyName:Impacted
+StyleName:Regular
+FullName:Impacted
+MenuName:Impacted
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\xampp\htdocs\New Dewata Cafe\Font\Impacted.ttf
+DataFormat:sfntData
+FileLength:107032
+FileModTime:1469101316
+WeightClass:400
+WidthClass:3
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:EdwardianScriptITC
+FamilyName:Edwardian Script ITC
+StyleName:Regular
+FullName:Edwardian Script ITC
+MenuName:Edwardian Script ITC
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\xampp\htdocs\New Dewata Cafe\Font\ITCEDSCR.TTF
+DataFormat:sfntData
+FileLength:64056
+FileModTime:1444262400
+WeightClass:400
+WidthClass:6
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ScriptMTBold
+FamilyName:Script MT Bold
+StyleName:Regular
+FullName:Script MT Bold
+MenuName:Script MT Bold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\xampp\htdocs\New Dewata Cafe\Font\SCRIPTBL.TTF
+DataFormat:sfntData
+FileLength:55500
+FileModTime:1468980226
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\xampp\htdocs\New Dewata Cafe\Font\sharefonts.net.txt
+FileModTime:1468058562
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Impact
+FamilyName:Impact
+StyleName:Regular
+FullName:Impact
+MenuName:Impact
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\xampp\htdocs\New Dewata Cafe\Font\unicode.impact.ttf
+DataFormat:sfntData
+FileLength:77666
+FileModTime:1469101316
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\xampp\htdocs\New Dewata Cafe\Font\www.dafontfree.net.url
+FileModTime:1660157172
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\xampp\htdocs\New Dewata Cafe\Font\www.freefontsdownload.net.url
+FileModTime:1660141412
+%EndFont
+

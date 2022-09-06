@@ -1,0 +1,737 @@
+@font-face {
+  font-family: "Impact";
+  src: url(../font/impact.ttf);
+}
+@font-face {
+  font-family: "Script MT Bold";
+  src: url(../font/SCRIPTBL.TTF);
+}
+@font-face {
+  font-family: "Edwardian Script ITC";
+  src: url(../font/EdwardianScriptITC.ttf);
+}
+@font-face {
+  font-family: "gautami";
+  src: url(../font/gautamib.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0s;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  width: 80%;
+  align-items: center;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav ul li a:hover,
+nav ul .menu:hover a span {
+  color: rgb(248, 177, 86);
+}
+
+nav .menu:hover {
+  margin-top: 120px;
+  cursor: pointer;
+}
+
+nav .menu a span {
+  color: #fff;
+}
+
+nav .menu:hover a span {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav .menu:hover ~ .reservasi {
+  margin-left: -6.5%;
+}
+
+nav ul li ul {
+  display: none;
+}
+
+nav ul .menu:hover ul {
+  display: flex;
+  width: 120%;
+  list-style: none;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0px;
+  padding: 10px 10% 10px 10%;
+  margin-left: -10%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav ul .menu:hover ul li {
+  margin-bottom: 10px;
+}
+
+nav .logo-new {
+  margin-left: 2%;
+}
+
+nav .logo-new img {
+  height: 100px;
+}
+
+nav .lang {
+  display: flex;
+  align-items: center;
+  margin-right: 2%;
+}
+
+nav .lang a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav .lang a p {
+  margin-top: 15px;
+}
+
+.lang-hp {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 100%;
+  height: 0.4vw;
+  margin: 0.7vw;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+.active {
+  color: orange;
+}
+
+nav.scrolled ul .menu:hover ul li a.active {
+  color: orange;
+}
+
+nav.scrolled {
+  background-image: url(../image/bg-nav.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav.scrolled ul .menu:hover ul li a {
+  color: #fff;
+}
+
+nav.scrolled ul li a:hover,
+nav.scrolled ul .menu:hover span,
+nav.scrolled ul .menu:hover ul li a:hover {
+  color: rgb(248, 177, 86);
+}
+
+nav.scrolled ul li a,
+nav.scrolled ul li a span,
+nav.scrolled .lang p {
+  color: black;
+}
+
+nav.scrolled ul .active {
+  color: orange;
+}
+
+.hero-img {
+  font-family: "Script MT Bold", monospace;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../image/Sampul.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* margin-top: -100px; */
+}
+
+.hero-img .hero-cap h1 {
+  font-size: 6.5vw;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+}
+
+.intro-web {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../image/home-gambar\ 2.png);
+  background-size: 60%;
+  background-position: center;
+  background-position-y: 90px;
+  background-repeat: no-repeat;
+}
+
+.intro-img {
+  margin-left: 8%;
+  margin-top: 20px;
+  width: 90%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.intro-title h3 {
+  font-family: "Edwardian Script ITC";
+  font-size: 10.2vw;
+  color: rgb(248, 177, 86);
+  margin-left: -8%;
+  margin-top: -12%;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.intro-title h4 {
+  font-size: 3vw;
+  letter-spacing: 0.3vw;
+  margin-top: -15%;
+}
+
+.intro-desc {
+  width: 30vw;
+  font-size: 1.3vw;
+  text-indent: 2vw;
+  text-align: justify;
+  font-family: "gautami", sans-serif;
+}
+
+.ibu-hp {
+  display: none;
+}
+
+.ibu-ibu {
+  display: flex;
+  align-items: flex-end;
+}
+
+.ibu-ibu img {
+  margin-bottom: -20%;
+}
+
+.open-time .alamat-hp,
+.open-time .copyright-hp {
+  display: none;
+}
+
+.open-time {
+  width: 100%;
+  height: fit-content;
+  background-image: url(../image/home-gambar\ 3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 110%;
+  padding-top: 13%;
+  color: #fff;
+}
+
+.open-time div {
+  height: fit-content;
+}
+
+.open-time-title {
+  font-size: 2.5vw;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-bottom: 8%;
+}
+
+.open-time-desc {
+  font-size: 1.4vw;
+  font-family: "gautami", sans-serif;
+  margin-left: 3%;
+  text-align: justify;
+}
+
+.jadwal {
+  margin-left: -5%;
+}
+
+.jadwal ul {
+  list-style: none;
+  font-size: 1.4vw;
+  font-family: "gautami", sans-serif;
+}
+
+.jadwal ul:first-child {
+  margin-right: 5%;
+  text-align: justify;
+}
+
+.alamat {
+  display: flex;
+  width: 70%;
+  flex-direction: row;
+  margin-top: 10vw;
+  padding: 0 1vw;
+  padding-bottom: 0;
+  text-align: left;
+}
+
+.alamat.eng {
+  margin-top: 12.5vw;
+}
+
+.alamat.jepang {
+  margin-top: 14vw;
+}
+
+.alamat.korea {
+  margin-top: 14.5vw;
+}
+
+.alamat p {
+  font-size: 1.1vw;
+}
+
+.alamat .icon-alamat {
+  font-size: 3vw;
+  margin-right: 1vw;
+}
+
+.copyright {
+  font-size: 0.8vw;
+  margin-top: -1vw;
+  text-align: left;
+  margin-left: 1vw;
+}
+
+.instagram {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  font-size: 1.3vw;
+  padding-right: 3vw;
+  margin-top: 7.5vw;
+}
+
+.instagram p {
+  margin-top: 1vw;
+}
+
+/* RESERVASI */
+.reservasi-page {
+  width: 100%;
+  height: 109vh;
+  padding-top: 10%;
+  background-image: url(../image/reservasi-gambar\ 1.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 100px;
+}
+
+.reservasi-page .reservasi-title {
+  display: none;
+}
+
+.reservasi-page .reservasi-text h3 {
+  width: 50%;
+  text-align: center;
+  margin-top: 27%;
+  font-size: 2vw;
+  font-family: "Impact", sans-serif;
+  color: #fff;
+  letter-spacing: 0.5px;
+  -webkit-text-stroke: 1.5px rgb(209, 136, 0);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.reservasi-page .reservasi-text.jepang h3,
+.reservasi-page .reservasi-text.korea h3 {
+  -webkit-text-stroke: 0.7px rgb(209, 136, 0);
+}
+
+.reservasi-page .reservasi-text a {
+  width: 25%;
+  height: 9%;
+  margin-top: 1%;
+  text-decoration: none;
+  color: #fff;
+  background-color: #e18612;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.wa-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservasi-page .reservasi-text a .wa-btn p {
+  font-size: 2vw;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.reservasi-text .reservasi-image {
+  display: none;
+}
+/* RESERVASI */
+
+/* SEWA MOBIL */
+.sewa-mobil-page {
+  width: 100%;
+  padding-top: 120px;
+  background-image: url(../image/sewa-mobil\ 1.png);
+  background-size: 100%;
+  background-position: bottom;
+  background-position-y: 9vw;
+  background-repeat: no-repeat;
+}
+
+.sewa-mobil-page .sewa-mobil-title {
+  display: flex;
+  justify-content: center;
+}
+
+.sewa-mobil-page .sewa-mobil-title h1 {
+  font-size: 3.5vw;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.sewa-mobil-page .sewa-mobil-item {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation-name: SlideUp;
+  animation-duration: 1s;
+}
+
+.sewa-mobil-page .sewa-mobil-item h3 {
+  font-size: 1.5vw;
+  padding-bottom: 5px;
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.5);
+  font-family: "gautami", sans-serif;
+}
+
+.sewa-mobil-page .sewa-mobil-item img {
+  margin-top: 30px;
+}
+
+.sewa-mobil-page .sewa-mobil-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 3vw auto 2vw auto;
+}
+
+.sewa-mobil-page .sewa-mobil-item ul li {
+  font-size: 1.5vw;
+  font-family: "gautami", sans-serif;
+}
+
+.sewa-mobil-page .booking {
+  display: flex;
+  justify-content: center;
+}
+
+.sewa-mobil-page .booking a {
+  text-decoration: none;
+  display: flex;
+  width: 20%;
+  height: 40px;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: #e18612;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.sewa-mobil-page .booking a .booking-btn p {
+  font-size: 30px;
+  padding: 0;
+  color: #fff;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 10%;
+}
+
+.sewa-mobil-title-hp,
+.sewa-mobil-page .booking-hp {
+  display: none;
+}
+/* SEWA MOBIL */
+
+/* TESTIMONI */
+.testimoni-page-google {
+  height: 100vh;
+  background-image: url(../image/testimoni\ bg.png);
+  background-size: 100%;
+  background-position: bottom;
+  background-color: #e18612;
+  padding-top: 10vw;
+}
+
+.testimoni-page-google .testimoni-google img {
+  height: 33vw;
+  margin: 30px auto auto auto;
+  cursor: pointer;
+}
+
+.whatsapp {
+  height: 100vh;
+  padding-top: 8vw;
+  background-image: url(../image/testimoni\ bg.png);
+  background-size: 100%;
+}
+
+.karosel img {
+  width: 16vw;
+  float: left;
+  margin-right: 2%;
+}
+
+.karosel img:first-child {
+  margin-left: 15vw;
+}
+
+.whatsapp-hp {
+  display: none;
+}
+/* TESTIMONI */
+
+/* TENTANG KAMI */
+.tentang-kami-page {
+  height: 100vh;
+  padding-top: 120px;
+  background-image: url(../image/tentang-kami\ 1.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.tentang-kami-page .tentang-kami-title {
+  margin-bottom: 1vw;
+}
+
+.tentang-kami-page .tentang-kami-title h3 {
+  font-size: 3.5vw;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.tentang-kami-text {
+  width: 70%;
+}
+
+.tentang-kami-page .tentang-kami-text img {
+  float: left;
+  margin-left: 2vw;
+  margin-bottom: 1vw;
+  height: 22vw;
+}
+
+.tentang-kami-page .tentang-kami-text h5 {
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.tentang-kami-page .tentang-kami-text p {
+  font-size: 1vw;
+  width: 65%;
+  text-align: center;
+  margin: auto auto;
+}
+
+.tentang-kami-hp {
+  display: none;
+}
+/* TENTANG KAMI */
+
+/* ANIMASI */
+@keyframes SlideUp {
+  0% {
+    transform: translateY(-5vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0vw);
+    opacity: 1;
+  }
+}
+/* ANIMASI */
+
+/* MENU */
+.paket-menu {
+  width: 100%;
+  height: fit-content;
+  padding: 0;
+}
+
+.menu-item {
+  width: 100%;
+}
+
+.paket-menu.menu-a {
+  padding-top: 90px;
+  animation-name: SlideUp;
+  animation-duration: 0.5s;
+}
+
+.paket-menu.menu-a.eng {
+  padding-top: 100px;
+}
+
+.paket-menu.menu-c {
+  height: fit-content;
+}
+
+.menu-hp {
+  display: none;
+}
+/* MENU */
+
+.kelompok {
+  background-color: rgb(248, 177, 86);
+  display: flex;
+  height: 100vh;
+  padding-top: 100px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kelompok img {
+  width: 30%;
+  margin: 0px auto auto auto;
+}
+
+.button {
+  width: 20%;
+  height: 10%;
+  margin: auto auto;
+  background-color: #e18612;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+.kelompok img.active {
+  animation: rotate 1s;
+  animation-iteration-count: 5;
+}
+
+.button p {
+  font-size: 3vw;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #fff;
+}
+
+.nama-kelompok {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #ffaa3b;
+  animation: zoom-in 3s;
+  color: #fff;
+}
+
+.nama-kelompok.active {
+  display: flex;
+}
+
+.nama-kelompok img {
+  width: 20%;
+  margin: auto auto;
+}
+
+.nama-kelompok p {
+  font-family: "gautami";
+  font-size: 2vw;
+  margin: auto auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.nama-kelompok h1 {
+  margin: auto auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.nama-kelompok ol {
+  margin: auto auto;
+  font-size: 2vw;
+  margin-top: 0;
+}
+
+.close {
+  position: absolute;
+  top: 5vw;
+  right: 5vw;
+  font-size: 5vw;
+  color: #fff;
+  cursor: pointer;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0);
+    border-radius: 900%;
+    opacity: 0;
+  }
+  100% {
+    transform: scale(100%);
+    border-radius: 0%;
+    opacity: 1;
+  }
+}
+
+.wm-footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: fit-content;
+  width: 100%;
+  margin-top: -1.5vw;
+}
+
+.wm-footer img {
+  width: 2vw;
+  height: 2vw;
+  margin-right: 1vw;
+}
+
+.wm-footer p {
+  font-size: 1vw;
+}

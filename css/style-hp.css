@@ -1,0 +1,578 @@
+@media screen and (max-width: 568px) {
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  nav {
+    background-color: none;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    width: 100%;
+    height: 16vw;
+    position: center;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  nav.active {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    height: fit-content;
+    position: center;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  nav.scrolled.active {
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    position: center;
+    background-position: top;
+    background-position-y: -8vw;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  nav .logo-new img {
+    height: 17vw;
+  }
+
+  nav ul {
+    display: flex;
+    transform: translateX(100vw);
+    flex-direction: column;
+    list-style: none;
+    width: 72%;
+    align-items: flex-start;
+    margin-top: 19%;
+    margin-left: -20%;
+  }
+
+  nav.active ul {
+    display: flex;
+    transform: translateX(0vw);
+    flex-direction: column;
+    list-style: none;
+    width: 72%;
+    align-items: flex-start;
+    margin-top: 19%;
+    margin-left: -20%;
+    transition: 0.5s;
+  }
+
+  nav ul li {
+    margin-bottom: 2%;
+    width: 80vw;
+    border-bottom: 1px solid black;
+    text-shadow: 0px 1.5px 1.5px black;
+  }
+
+  nav ul li a {
+    font-size: 3vw;
+  }
+
+  nav .lang {
+    display: none;
+  }
+
+  .lang-hp {
+    display: flex;
+    align-items: center;
+    margin-right: 4%;
+    margin-top: 1.4%;
+  }
+
+  nav .lang-hp a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  nav .lang-hp a img {
+    height: 10vw;
+  }
+
+  nav .lang-hp a p {
+    font-size: 5vw;
+    margin-top: 3vw;
+    margin-left: -5%;
+  }
+
+  nav .hamburger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-right: 4%;
+    width: 5%;
+  }
+
+  nav .menu:hover {
+    margin: 0%;
+    border-bottom: none;
+  }
+
+  nav ul .menu ul {
+    display: none;
+  }
+
+  nav ul .menu:hover ul {
+    margin-top: -2vw;
+    margin-left: -5vw;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  nav ul .menu:hover ul li {
+    margin-bottom: 0;
+    width: 75vw;
+  }
+
+  nav .menu:hover a span {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  nav .menu:hover ~ .reservasi {
+    margin-left: 0%;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(450%) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-450%) rotate(-45deg);
+  }
+
+  nav.scrolled {
+    background-image: url(../image/bg-nav-hp.png);
+    background-position: top;
+  }
+
+  nav.scrolled .lang-hp p {
+    color: black;
+  }
+
+  nav.scrolled .hamburger .bar {
+    background-color: black;
+  }
+
+  nav.scrolled ul li a {
+    text-shadow: none;
+  }
+
+  nav.scrolled ul .menu:hover ul li a {
+    color: black;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .hero-img {
+    height: 100vh;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .intro-web {
+    background-image: url(../image/home-gambar\ 2\ hp.png);
+    background-size: 100%;
+    background-position: bottom;
+    height: fit-content;
+  }
+
+  .intro-img-hp {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0vw auto 0 auto;
+  }
+
+  .intro-web .intro-img {
+    width: 60%;
+    border-radius: 5px;
+    margin-left: 2vw;
+  }
+
+  .intro-web .intro-title {
+    display: none;
+  }
+
+  .intro-web .intro-desc {
+    font-size: 18px;
+    width: 80%;
+    margin: 40px auto;
+  }
+
+  .intro-web .ibu-ibu {
+    display: none;
+  }
+
+  .intro-web .ibu-hp {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .open-time {
+    background-image: url(../image/home-gambar\ 3\ hp.png);
+    background-size: 100%;
+    background-color: #e18612;
+    background-position: bottom;
+    height: fit-content;
+  }
+
+  .open-time .alamat,
+  .open-time .copyright {
+    display: none;
+  }
+
+  .open-time .alamat-hp,
+  .open-time .copyright-hp {
+    display: flex;
+  }
+
+  .open-time-title {
+    font-size: 32px;
+  }
+
+  .open-time .open-time-desc {
+    font-size: 16px;
+    font-weight: lighter;
+    width: 75%;
+    margin: 0 auto 50px auto;
+  }
+
+  .open-time .jadwal ul li {
+    font-size: 16px;
+  }
+
+  .open-time .alamat-hp {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    margin-top: 30px;
+    padding: 0 1vw;
+    padding-bottom: 0;
+    text-align: left;
+  }
+
+  .open-time .alamat-hp p {
+    font-size: 10px;
+    margin-top: -5px;
+  }
+
+  .open-time .alamat-hp .icon-alamat {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+
+  .open-time .instagram {
+    font-size: 12px;
+    margin-top: -20px;
+    margin-bottom: 0;
+  }
+
+  .open-time .instagram p {
+    margin-top: 15px;
+  }
+
+  .open-time .copyright-hp {
+    font-size: 8px;
+  }
+
+  .wm-footer img {
+    width: 4vw;
+    height: 4vw;
+  }
+
+  .wm-footer p {
+    font-size: 2vw;
+  }
+}
+
+/* RESERVASI */
+@media screen and (max-width: 568px) {
+  .reservasi-page {
+    height: 100vh;
+    background-image: url(../image/reservasi-gambar\ 1\ hp.png);
+    background-size: 100%;
+    background-position: bottom;
+  }
+
+  .reservasi-page .reservasi-text .reservasi-title {
+    display: block;
+    margin-top: 10vw;
+    font-size: 4.5vw;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+
+  .reservasi-page .reservasi-text h3 {
+    margin-top: 1vw;
+    width: 90%;
+    font-size: 3.5vw;
+    -webkit-text-stroke: 1px rgb(209, 136, 0);
+  }
+
+  .reservasi-page .reservasi-text.jepang h3,
+  .reservasi-page .reservasi-text.korea h3 {
+    -webkit-text-stroke: 0.4px rgb(209, 136, 0);
+  }
+
+  .reservasi-page .reservasi-text a {
+    width: 50vw;
+  }
+
+  .reservasi-page .reservasi-text a .wa-btn p {
+    font-size: 3.5vw;
+    margin: auto auto;
+  }
+
+  .reservasi-page .reservasi-image {
+    display: block;
+    height: 35vh;
+  }
+}
+@media screen and (max-width: 370px) {
+  .reservasi-page .reservasi-image {
+    width: 80vw;
+    height: auto;
+    margin-top: 90px;
+  }
+}
+/* RESERVASI */
+
+/*  SEWA MOBIL */
+@media screen and (max-width: 568px) {
+  .sewa-mobil-page {
+    background-image: none;
+    padding-top: 20vw;
+  }
+
+  .sewa-mobil-page .sewa-mobil-title {
+    display: none;
+  }
+
+  .sewa-mobil-page .sewa-mobil-item {
+    background-image: url(../image/sewa-mobil\ 1\ hp.png);
+    justify-content: flex-start;
+    height: 100vh;
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+  .sewa-mobil-page .sewa-mobil-item h3 {
+    font-size: 5vw;
+    margin-top: 20%;
+  }
+
+  .sewa-mobil-page .sewa-mobil-item ul li {
+    font-size: 5vw;
+  }
+
+  .sewa-mobil-page:nth-child(1) {
+    display: none;
+  }
+
+  .sewa-mobil-page:nth-child(2) :nth-child(1) .sewa-mobil-title-hp {
+    font-size: 7vw;
+    display: block;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+
+  .sewa-mobil-page:nth-child(2) :nth-child(1) h3 {
+    margin-top: 10%;
+  }
+
+  .sewa-mobil-page .booking {
+    display: none;
+  }
+
+  .sewa-mobil-page .booking-hp {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    width: 40%;
+    height: 7vw;
+    background: #e18612;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 5vw;
+  }
+
+  .sewa-mobil-page .booking-hp p {
+    color: #fff;
+    font-size: 4.5vw;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+
+  .sewa-mobil-page:nth-child(2) :nth-child(3) {
+    height: fit-content;
+  }
+}
+/*  SEWA MOBIL */
+
+/* TESTIMONI */
+@media screen and (max-width: 568px) {
+  .testimoni-page-google {
+    background-image: url(../image/testimoni-bg-hp.png);
+    background-position: top;
+    height: fit-content;
+    padding-top: 20vw;
+  }
+
+  .testimoni-google {
+    padding-bottom: 15vw;
+  }
+
+  .testimoni-page-google .testimoni-google img {
+    width: 75%;
+    height: auto;
+  }
+
+  #whatsapp,
+  #instagram {
+    display: none;
+  }
+
+  #whatsapp-hp,
+  #instagram-hp {
+    display: flex;
+  }
+
+  .whatsapp-hp {
+    background-image: url(../image/testimoni-bg-hp.png);
+    background-size: 100%;
+    background-position: bottom;
+    background-color: #e18612;
+    background-repeat: no-repeat;
+    padding: 20vw 0;
+  }
+
+  .whatsapp-hp img {
+    width: 90%;
+    margin: auto auto;
+  }
+}
+/* TESTIMONI */
+
+/* TENTANG KAMI */
+@media screen and (max-width: 568px) {
+  .tentang-kami-page {
+    display: none;
+  }
+
+  .tentang-kami-hp {
+    display: block;
+    height: fit-content;
+    padding-top: 20vw;
+    padding-bottom: 9vw;
+  }
+
+  .tentang-hp {
+    width: 100vw;
+  }
+
+  .tentang-hp-2 {
+    margin-top: 10vw;
+  }
+
+  .tentang-hp h3 {
+    font-size: 7vw;
+    margin-bottom: 7vw;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+
+  .tentang-hp .teks-1 {
+    font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2vw;
+  }
+
+  .tentang-hp .teks-2 {
+    font-size: 3vw;
+    width: 75vw;
+    margin: 0 auto;
+  }
+
+  .tentang-hp-2 p {
+    font-size: 3vw;
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+/* TENTANG KAMI */
+
+/* MENU */
+@media screen and (max-width: 568px) {
+  .menu-web {
+    display: none;
+  }
+
+  .paket-menu {
+    height: fit-content;
+  }
+
+  .paket-menu.menu-a {
+    padding-top: 10vw;
+  }
+
+  .menu-hp {
+    display: block;
+  }
+
+  .paket-menu.menu-a.eng {
+    padding-top: 15vw;
+  }
+
+  .paket-menu.menu-a.jep {
+    padding-top: 15vw;
+  }
+  .paket-menu.menu-a.kor {
+    padding-top: 15vw;
+  }
+}
+/* MENU */
+
+@media screen and (max-width: 568px) {
+  .kelompok img {
+    width: 50%;
+  }
+
+  .kelompok .button {
+    width: 50%;
+    height: 8vw;
+  }
+
+  .kelompok .button p {
+    font-size: 5vw;
+  }
+
+  .kelompok .button p:hover {
+    color: rgb(255, 224, 167);
+  }
+
+  .nama-kelompok img {
+    width: 50%;
+  }
+
+  .nama-kelompok p {
+    font-size: 4vw;
+  }
+
+  .nama-kelompok h1 {
+    font-size: 6vw;
+  }
+
+  .nama-kelompok ol li {
+    font-size: 5vw;
+  }
+}
