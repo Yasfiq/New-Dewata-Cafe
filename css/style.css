@@ -519,7 +519,7 @@ nav.scrolled ul .active {
 
 /* TENTANG KAMI */
 .tentang-kami-page {
-  height: 100vh;
+  height: fit-content;
   padding-top: 120px;
   background-image: url(../image/tentang-kami\ 1.png);
   background-size: 90%;
@@ -558,6 +558,7 @@ nav.scrolled ul .active {
   width: 65%;
   text-align: center;
   margin: auto auto;
+  margin-bottom: 20px;
 }
 
 .tentang-kami-hp {
