@@ -294,6 +294,18 @@
 
   .wm-footer p {
     font-size: 2vw;
+    margin: 0;
+  }
+
+  .wm-footer img {
+    margin-left: 25vw;
+  }
+
+  .wm-footer .dibuat {
+    margin-left: -30vw;
+    margin-top: 5vw;
+    font-size: 1.7vw;
+    margin-bottom: 2vw;
   }
 }
 
@@ -308,8 +320,8 @@
 
   .reservasi-page .reservasi-text .reservasi-title {
     display: block;
-    margin-top: 10vw;
-    font-size: 4.5vw;
+    margin-top: 12vw;
+    font-size: 5vw;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   }
 
@@ -343,7 +355,7 @@
   .reservasi-page .reservasi-image {
     width: 80vw;
     height: auto;
-    margin-top: 90px;
+    margin-top: 170px;
   }
 }
 /* RESERVASI */
