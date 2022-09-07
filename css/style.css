@@ -564,6 +564,14 @@ nav.scrolled ul .active {
 .tentang-kami-hp {
   display: none;
 }
+
+.tentang-kami-page.kor .tentang-kami-text {
+  width: 67vw;
+}
+
+.tentang-kami-page.jep .tentang-kami-text {
+  width: 67vw;
+}
 /* TENTANG KAMI */
 
 /* ANIMASI */
